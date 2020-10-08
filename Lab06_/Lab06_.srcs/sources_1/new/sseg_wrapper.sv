@@ -27,4 +27,7 @@ module sseg_wrapper(
     input dp,
     input [6:0] sseg
     );
+    sseg_1 s1(
+    .A( sw[7:4]), .B(sw[3:0]), .sel(sw[15]), .seg_l(an[1]), .seg_r(an[0]), .sseg(sseg), .seg_un(an[3:2]), .dp(dp),
+    );
 endmodule

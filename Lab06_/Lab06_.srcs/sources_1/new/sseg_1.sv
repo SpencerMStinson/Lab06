@@ -30,4 +30,17 @@ module sseg_1(
     output seg_r,
     output seg_l
     );
+    wire num;
+    mux4_2b m1(
+    .A(A), .B(B), 
+    .sel(sel), .out(num),
+    );
+    sseg_decoder s1(
+    .num(num), .sseg(sseg)
+    );
+    
+    assign seg_r = sel;
+    assign seg_l = ~sel;
+    assign dp=1 ;
+    assign seg_un = 2'b11;
 endmodule
