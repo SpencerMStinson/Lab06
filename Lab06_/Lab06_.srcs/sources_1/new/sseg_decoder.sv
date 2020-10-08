@@ -29,7 +29,7 @@ module sseg_decoder(
     case(num)
     4'h0: sseg = 7'b1000000;
     4'h1: sseg = 7'b1111001;
-    4'h2: sseg = 7'b0100100;
+    4'h2: sseg = 7'b0110000;
     4'h3: sseg = 7'b0100100;
     4'h4: sseg = 7'b0011001;
     4'h5: sseg = 7'b0010010;

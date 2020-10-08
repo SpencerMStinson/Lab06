@@ -32,7 +32,7 @@ sseg_decoder dut(
 );
 
 initial   begin 
-for (i=0; i<=8'hF; i=i+1)   begin 
+for (i=0; i<=4'hf; i=i+1)   begin 
      num_t = i;
      #10;
     end 
