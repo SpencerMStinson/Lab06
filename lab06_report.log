@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2020.10.7)  8 OCT 2020 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2020.10.7)  9 OCT 2020 18:03
 entering extended mode
 **./lab06_report.tex
 (lab06_report.tex
@@ -386,53 +386,152 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-<basys2.jpg, id=3, 963.6pt x 1284.8pt>
-File: basys2.jpg Graphic file (type jpg)
-<use basys2.jpg>
-Package pdftex.def Info: basys2.jpg  used on input line 85.
-(pdftex.def)             Requested size: 963.59766pt x 1284.79688pt.
 
-Overfull \hbox (493.84264pt too wide) in paragraph at lines 85--86
-[][] 
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang3.sty"
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 87.
+
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1
+/new/mux4_2b.sv
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1.
+
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+[1
+
+{C:/Users/spencer_stinson1/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+)
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_1/new
+/mux4_2b_testbench.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
  []
 
 
-LaTeX Warning: Float too large for page by 660.09604pt on input line 87.
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
 
-<Basys1.jpg, id=4, 963.6pt x 1284.8pt>
-File: Basys1.jpg Graphic file (type jpg)
-<use Basys1.jpg>
-Package pdftex.def Info: Basys1.jpg  used on input line 89.
-(pdftex.def)             Requested size: 963.59766pt x 1284.79688pt.
-
-Overfull \hbox (493.84264pt too wide) in paragraph at lines 89--90
-[][] 
+[2])
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1
+/new/sseg_decoder.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
  []
 
 
-LaTeX Warning: Float too large for page by 692.36693pt on input line 92.
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+[3])
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_1/new
+/sseg_decoder_testbench.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
 
 
-! Package Listings Error: File `mux4_2b(.sv)' not found.
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sv)
+[4])
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1
+/new/sseg1_.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.95 \Verilog{mux4_2b.sv}
-                         
-*** (cannot \read from terminal in nonstop modes)
 
- 
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+[5])
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1
+/new/sseg1_wrapper.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+[6])
+(C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_2/new
+/sseg_1_testbench.sv
+Overfull \hbox (54.244pt too wide) in paragraph at lines 2--3
+[][][][] 
+ []
+
+
+Overfull \hbox (54.244pt too wide) in paragraph at lines 20--23
+[][][][] 
+ []
+
+[7])
+<basys.png, id=334, 963.6pt x 1284.8pt>
+File: basys.png Graphic file (type png)
+<use basys.png>
+Package pdftex.def Info: basys.png  used on input line 98.
+(pdftex.def)             Requested size: 469.75502pt x 626.34239pt.
+
+
+LaTeX Warning: Float too large for page by 1.64156pt on input line 100.
+
+<basys_.png, id=335, 963.6pt x 1284.8pt>
+File: basys_.png Graphic file (type png)
+<use basys_.png>
+Package pdftex.def Info: basys_.png  used on input line 102.
+(pdftex.def)             Requested size: 469.75502pt x 626.34239pt.
+
+LaTeX Warning: Float too large for page by 1.64156pt on input line 104.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
+[8] [9 <./basys.png>] [10 <./basys_.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+ (lab06_report.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package rerunfilecheck Info: File `lab06_report.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
+ ) 
 Here is how much of TeX's memory you used:
- 7486 strings out of 493308
- 109316 string characters out of 3138735
- 208416 words of memory out of 3000000
- 10980 multiletter control sequences out of 15000+200000
- 7837 words of font info for 28 fonts, out of 3000000 for 9000
+ 8235 strings out of 493308
+ 121027 string characters out of 3138735
+ 317718 words of memory out of 3000000
+ 11369 multiletter control sequences out of 15000+200000
+ 8005 words of font info for 29 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,35p,259b,271s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 33i,6n,52p,471b,1977s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb>
+Output written on lab06_report.pdf (10 pages, 580481 bytes).
+PDF statistics:
+ 449 PDF objects out of 1000 (max. 8388607)
+ 320 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

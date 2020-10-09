@@ -1,0 +1,197 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 17420
+License: Customer
+
+Current time: 	Fri Oct 09 17:09:49 CDT 2020
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/XilinxVitis/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	C:/XilinxVitis/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Spencer_Stinson1
+User home directory: C:/Users/spencer_stinson1
+User working directory: C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/XilinxVitis/Vivado
+HDI_APPROOT: C:/XilinxVitis/Vivado/2020.1
+RDI_DATADIR: C:/XilinxVitis/Vivado/2020.1/data
+RDI_BINDIR: C:/XilinxVitis/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/spencer_stinson1/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/spencer_stinson1/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/spencer_stinson1/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	C:/XilinxVitis/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/vivado.log
+Vivado journal file location: 	C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/vivado.jou
+Engine tmp dir: 	C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/.Xil/Vivado-17420-ROG-305-05
+
+Xilinx Environment Variables
+----------------------------
+VSSDK140Install: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+XILINX: C:/XilinxVitis/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: C:/XilinxVitis/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: C:/XilinxVitis/Vivado/2020.1
+XILINX_SDK: C:/XilinxVitis/Vitis/2020.1
+XILINX_VITIS: C:/XilinxVitis/Vitis/2020.1
+XILINX_VIVADO: C:/XilinxVitis/Vivado/2020.1
+XILINX_VIVADO_HLS: C:/XilinxVitis/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,019 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 98 MB (+100269kb) [00:00:07]
+// [Engine Memory]: 1,019 MB (+917121kb) [00:00:07]
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\spencer_stinson1\Documents\GitHub\Lab06A\Lab06_\Lab06_.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 55 MB. Current time: 10/9/20, 5:09:50 PM CDT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 105 MB (+2008kb) [00:00:19]
+// WARNING: HEventQueue.dispatchEvent() is taking  3096 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XilinxVitis/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 1075.758 ; gain = 0.000 
+// Project name: Lab06_; location: C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// a (cs): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cs)
+// [GUI Memory]: 112 MB (+2370kb) [00:00:33]
+// [GUI Memory]: 126 MB (+7934kb) [00:02:18]
+// [GUI Memory]: 138 MB (+5918kb) [00:07:22]
+// PAPropertyPanels.initPanels (sseg1_wrapper.sv) elapsed time: 0.2s
+// Elapsed time: 646 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 1); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 1, false, true); // m (l, cs) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cs)
+closeTask("Project Manager", "Project Manager", "DesignTask.PROJECT_MANAGER");
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// A (cs): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Close Project"); // A (cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 1); // m (l, cs)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 1, false, true); // m (l, cs) - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N (aI, cs)
+// Elapsed time: 33 seconds
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg1_wrapper.sv"); // d (F, cs)
+// Elapsed time: 29 seconds
+selectCodeEditor("sseg1_wrapper.sv", 1032, 49); // bP (w, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv)]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv)]", 2, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv)]", 2, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv)]", 2); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv), m1 : mux4_2b (mux4_2b.sv)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv), m1 : mux4_2b (mux4_2b.sv)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv), s1 : sseg_decoder (sseg_decoder.sv)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1_wrapper (sseg1_wrapper.sv), s1 : sseg1_ (sseg1_.sv), s1 : sseg_decoder (sseg_decoder.sv)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 12 seconds
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv"); // d (F, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux4_2b.sv", 3); // m (l, cs)
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/mux4_2b.sv"); // d (F, cs)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_.sv", 2); // m (l, cs)
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg1_.sv"); // d (F, cs)
+// Elapsed time: 14 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 6); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sseg_decoder_testbench (sseg_decoder_testbench.sv)]", 9, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sseg_decoder_testbench (sseg_decoder_testbench.sv)]", 9, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mux4_2b_testbench (mux4_2b_testbench.sv)]", 11, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mux4_2b_testbench (mux4_2b_testbench.sv)]", 11, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2]", 7); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, sseg_1_testbench (sseg_1_testbench.sv)]", 8, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_2, sseg_1_testbench (sseg_1_testbench.sv)]", 8, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 10 seconds
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_2/new/sseg_1_testbench.sv"); // d (F, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mux4_2b_testbench.sv", 6); // m (l, cs)
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_1/new/mux4_2b_testbench.sv"); // d (F, cs)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg_decoder_testbench.sv", 5); // m (l, cs)
+setText("PAResourceAtoD.AbstractFileView_READ_ONLY", "C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_1/new/sseg_decoder_testbench.sv"); // d (F, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,019 MB. GUI used memory: 79 MB. Current time: 10/9/20, 5:39:51 PM CDT
+// Elapsed time: 1192 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_.sv", 2); // m (l, cs)
+// Elapsed time: 168 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg_decoder_testbench.sv", 5); // m (l, cs)
+// Elapsed time: 51 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 1); // m (l, cs)
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg_decoder.sv", 4); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg_decoder_testbench.sv", 5); // m (l, cs)
+// Elapsed time: 347 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_wrapper.sv", 1); // m (l, cs)
+// Elapsed time: 224 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg_1_testbench.sv", 7); // m (l, cs)
+// Elapsed time: 49 seconds
+selectCodeEditor("sseg_1_testbench.sv", 34, 421); // bP (w, cs)
+selectCodeEditor("sseg_1_testbench.sv", 121, 413); // bP (w, cs)
+selectCodeEditor("sseg_1_testbench.sv", 335, 411); // bP (w, cs)
+// Elapsed time: 166 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_.sv", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg_decoder.sv", 4); // m (l, cs)

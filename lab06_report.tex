@@ -68,35 +68,39 @@
 
 \section*{Summary}
 
-Type the summary of your experiment and results here.  
+In this experiment, we learned the design and code for a multiplexer, decoder, and how to put these both into one more complex design. We also learned to use this design with a physical board. We used new syntax that we had previously not had use for, for example; always@*, for, and case. To apply this design to the FPGA, we also had to learn how to use constraints and how to run synthesis and implementations, as well as to generate a bitstream.
 
 
 \section*{Q\&A}
 \begin {itemize}
-\item List the errors found during simulation. What does this tell you about why we run simulations?
-One of my main errors was in naming. I consistently had an input or output name slightly different than it was meant to be. This caused me many problems and also caused my Basys board not to run correctly originally. 
-\item How many wires are connected to the 7-segment display? If the segments were not all connected together, how many wires would there have to be? Why do we prefer the current method vs. seperating all of the segments?
+\item List the errors found during simulation. What does this tell you about why we run simulations?\\
+One of my main errors was in naming. I consistently had an input or output name slightly different than it was meant to be. This caused me many problems and also caused my Basys board not to run correctly originally. There were also errors with the connections of some of the wires, which I only found by examining the test benches. 
+\item How many wires are connected to the 7-segment display? If the segments were not all connected together, how many wires would there have to be? Why do we prefer the current method vs. seperating all of the segments?\\
+There are 5 wires connected to the 7-segment display. If the segments were not all connected together, there would be 29 wires. We prefer the current method because it is much more efficient and it allows us to do all of this in less steps, as we are doing the same thing to each bit, so doing it all individually would be repetitive and cause more probability for error. 
+\end{itemize}
 
+
+
+\section*{Code}
+
+
+\Verilog[caption= mutiplexer code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/mux4_2b.sv}
+\Verilog[caption= multiplexer test bench code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_1/new/mux4_2b_testbench.sv}
+\Verilog[caption= 7 segment decoder code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg_decoder.sv}
+\Verilog[caption= 7 segment decoder testbench code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_1/new/sseg_decoder_testbench.sv}
+\Verilog[caption= 7 segment code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg1_.sv}
+\Verilog[caption= 7 segment wrapper code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sources_1/new/sseg1_wrapper.sv}
+\Verilog[caption= 7 segment testbench code]{C:/Users/spencer_stinson1/Documents/GitHub/Lab06A/Lab06_/Lab06_.srcs/sim_2/new/sseg_1_testbench.sv}
 
 \section*{Results}
 
-In this section, put your simulation waveforms, results tables, pictures of hardware, and any other required items.
 \begin{figure}
-	\includegraphics{basys2.jpg}
-\caption{Basys board running 7 segment }\label{fig:Basys}
+	\includegraphics[width= \textwidth]{basys.png}
+	\caption{Basys board running 7 segment on second display }\label{fig:Basys}
 \end{figure}
 \begin{figure}
-	\includegraphics{Basys1.jpg}
-\caption{Basys board running 7 segment }\label{fig:Basys}
-\section*{Code}
+	\includegraphics[width= \textwidth]{basys_.png}
+	\caption{Basys board running 7 segment }\label{fig:Basys2}
 \end{figure}
 
-Include all of the code you wrote or modified here.
-\Verilog{mux4_2b.sv}
-\Verilog{mux4_2b_testbench.sv}
-\Verilog{sseg_decoder.sv}
-\Verilog{sseg_decoder_testbench.sv}
-\Verilog{sseg1_.sv}
-\Verilog{sseg_wrapper.sv}
-\Verilog{sseg_1_testbench.sv}
 \end{document}
